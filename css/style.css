@@ -1,0 +1,65 @@
+﻿
+body {
+	width: 56%;
+	margin: auto;
+}
+
+.article {
+	border-bottom: solid gray 1px;
+	padding: 20px 20px 20px 20px;
+}
+.article span {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.votes {
+	margin-right: 20px;
+	width: 50px;
+}
+
+.up{
+	background-color: red;
+	float: right;
+	/*margin-right: 5%;*/
+}
+.add_tag, .tag, .remove_tag {
+	float: right;
+	margin-right: 10px;
+}
+.down {
+	background-color: green;
+	float: right;
+}
+
+.time {
+	text-align: right;
+	width: 250px;
+	/*border: solid blue 1px;*/
+	/*float: left;*/
+}
+.on {
+	background-color: gray;
+}
+
+#nav li {
+	display: inline;
+}
+
+#banner {
+	float: right;
+}
+
+#one {
+	float: left;
+	width: 100%;
+}
+
+footer {
+	/*position:fixed;*/
+    margin: auto;
+    bottom:5px;
+    height:30px;
+    width:100%;
+    float: left;
+}
