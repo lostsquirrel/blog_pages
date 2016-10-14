@@ -14,7 +14,7 @@
 					console.log(v)
 					console.log()
 					if ('header' == $(v).attr('id')) {
-						$('header').html($(v).html());
+						$('#header').html($(v).html());
 					}
 					if ('footer' == $(v).attr('id')) {
 						$('footer').html($(v).html());
